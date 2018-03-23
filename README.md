@@ -1,4 +1,7 @@
 Experimentation of application of data science to NFL 2015 dataset to predict the success of any given play.
+
+This project was written in Jupyter notebooks `.ipynb` and then exported to pure Python files. Therefore, the files are not executable without the given Jupyter environment. Python dependencies include and are not limited to scikit-learn, pandas, numpy, matplotlib, and seaborn.
+
 # NFL Analysis of Individual Plays
 
 > To be a successful team in the NFL, you must have a combination of talent and strategy. Being able to predict outcomes of games and player performances rests heavily on being able to understand a play by play analysis. With this in mind, the following notebooks will illustrate important relationships of play result depending on different aspects of the game. Through an analysis of statistics and facts from the last 15 years of NFL football, the intended result is to be able to decide what the outcome of a play will be given initial conditions. This includes what type of play it will be and the yards gained.
