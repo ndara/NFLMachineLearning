@@ -1,6 +1,8 @@
 Experimentation of application of data science to NFL 2015 dataset to predict the success of any given play.
 
-This project was written in Jupyter notebooks `.ipynb` and then exported to pure Python files. Therefore, the files are not executable without the given Jupyter environment. Python dependencies include and are not limited to scikit-learn, pandas, numpy, matplotlib, and seaborn.
+Note 1: This project was written in Jupyter notebooks `.ipynb` and then exported to pure Python files. Therefore, the files are not executable without the given Jupyter environment. Python dependencies include and are not limited to scikit-learn, pandas, numpy, matplotlib, and seaborn.
+
+Note 2: The dataset used for this data science project is not available on this repository.
 
 # NFL Analysis of Individual Plays
 
