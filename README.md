@@ -20,10 +20,10 @@ Experimentation of application of data science to NFL 2015 dataset to predict th
 
 ### Descriptions of individual notebooks
 
-Data Cleaning: In the data cleaning notebook, I have narrowed down the csv files important to my project. From those csv's I have converted them to Pandas dataframes and deleted columns that are insignificant. Then, I have changed the columns to appropriate data types. I also simplified multiple columns to single columns to save complexity of the dataframe. There are assert tests to ensure that the data has been sufficiently and properly cleaned.
+`Data Cleaning.py`: In the data cleaning notebook, I have narrowed down the csv files important to my project. From those csv's I have converted them to Pandas dataframes and deleted columns that are insignificant. Then, I have changed the columns to appropriate data types. I also simplified multiple columns to single columns to save complexity of the dataframe. There are assert tests to ensure that the data has been sufficiently and properly cleaned.
 
-Exploration: In the exploration dataset, I let my data loose to see what trends and interesting patterns may emerge. I explored the differences of rushing and passing the ball. I grouped my data by which down the play was conducted and repeated to observe correlations. I also managed to explore the effect point differential has on teams along with yards to go.
+`Exploration.py`: In the exploration dataset, I let my data loose to see what trends and interesting patterns may emerge. I explored the differences of rushing and passing the ball. I grouped my data by which down the play was conducted and repeated to observe correlations. I also managed to explore the effect point differential has on teams along with yards to go.
 
-Machine Learning: For the machine learning aspect of the project, I used several models to create predictions. To predict yardage gained, I used a linear regression, and random forest regressor. I also removed outliers to try to achieve higher precision. To predict the type of play, I used a gaussian model and cross validated it with a random forest classifier. 
+`Machine Learning`: For the machine learning aspect of the project, I used several models to create predictions. To predict yardage gained, I used a linear regression, and random forest regressor. I also removed outliers to try to achieve higher precision. To predict the type of play, I used a gaussian model and cross validated it with a random forest classifier. 
 
-Presentation: This notebook condenses the data science project in a presentable format. Taking excerpts from the other notebooks, the presentation creates a flowing narrative that observes the questions addressed in detail. 
+`Presentation`: This notebook condenses the data science project in a presentable format. Taking excerpts from the other notebooks, the presentation creates a flowing narrative that observes the questions addressed in detail. 
